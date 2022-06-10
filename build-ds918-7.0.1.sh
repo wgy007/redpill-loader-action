@@ -31,7 +31,7 @@ cp ${root}/user_config.DS918+.json ./user_config.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/mpt3sas/rpext-index.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/redpill-load/master/redpill-acpid/rpext-index.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/redpill-load/develop/redpill-misc/rpext-index.json
-https://raw.githubusercontent.com/pocopico/rp-ext/main/ixgbe/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/ixgbe/rpext-index.json
 sudo BRP_JUN_MOD=1 BRP_DEBUG=1 ./build-loader.sh 'DS918+' '7.0.1-42218'
 mv images/redpill-DS918+_7.0.1-4221*.img ${root}/output/
 cd ${root}
