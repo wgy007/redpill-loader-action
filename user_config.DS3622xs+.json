@@ -1,7 +1,5 @@
 {
   "extra_cmdline": {
-    "vid": "0x0781",
-    "pid": "0x5581",
     "SasIdxMap": "0",
     "SataPortMap": "88", 
     "DiskIdxMap": "0008",
