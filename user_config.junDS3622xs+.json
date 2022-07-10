@@ -1,13 +1,11 @@
 {
   "extra_cmdline": {
-    "vid": "0x0781",
-    "pid": "0x5581",
     "SataPortMap": "88", 
     "DiskIdxMap": "0008",
     "SasIdxMap": "00",
     "netif_num": 3,
     "sn": "2030SQRPJKSZR",
-    "macs": "109836AAAD61,109836AAAD62"
+    "macs": "109836AAAD11,109836AAAD12"
 
   },
   "synoinfo": {
